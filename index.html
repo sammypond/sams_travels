@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+TC" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
     <title>A Long Strange Trip</title>
@@ -15,16 +16,16 @@
             
         <div id="banner">
                 <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" id="navbar">
-                        <a class="navbar-brand" href="#">四海为家</a>
+                        <a class="navbar-brand" href="#">四海為家</a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                           <div class="navbar-nav">
-                            <a class="nav-item nav-link active" href="#home">Home<span class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link" href="#skills">Skills</a>
-                            <a class="nav-item nav-link" href="#contact">Contact</a>
+                            <a class="nav-item nav-link" target = "_blank" href="https://github.com/sammypond">GitHub</a>
+                            <a class="nav-item nav-link" target = "blank" href="https://www.linkedin.com/in/sam-marritz-15a145b1/">Linkedin</a>
+                            <a class="nav-item nav-link" target = "_new" href="./resume.pdf">Resume</a>
                           </div>
                         </div>
                       </nav>
@@ -59,17 +60,30 @@
             </div>
         </div>
     </div>
+    <div id = "bottompic">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+    </div>
+
+
+   
 </body>
+
+<!--
+<script>
+document.getElementById("box1").addEventListener("mouseover", mouseOver);
+document.getElementById("box1").addEventListener("mouseout", mouseOut);
+
+
+function mouseOver() {
+    var pictureContent = document.createElement("p");
+    pictureContent.textContent = "China, officially the People's Republic of China, is a country in East Asia and the world's most populous country,";
+    pictureContent.style.cssText = "position:absolute"
+    document.getElementById("box1").appendChild(pictureContent);
+} 
+
+</script>
+-->
+
 <script src="./js/trips.js"></script>
 <script src="./js/trips2.js"></script>
 <script src="./js/trips3.js"></script>

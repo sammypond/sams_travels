@@ -101,10 +101,11 @@
   .boxes {
   padding-left: 100px;
   font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
   }
   
   .boxcar {
-    padding: 40px 40px 40px 20px;
+    padding: 20px 40px 20px 20px;
     margin-left: 12%;
   }
 
@@ -117,11 +118,14 @@
       background-attachment: fixed;
   }
 #background {
-  background-color: rgb(211, 96, 30)
+    background: black;
+    background: linear-gradient(top, rgb(250, 110, 4), rgba(247, 132, 18, 0.6));
+    background: -webkit-linear-gradient(top, rgb(250, 110, 4), rgba(247, 132, 18, 0.6));
+    background: -moz-linear-gradient(top, rgb(250, 110, 4), rgba(247, 132, 18, 0.6));
 }
 
 #navbar {
-    opacity: .5;
+    opacity: .7;
     padding-right: 10%;
     padding-left: 10%;
     margin-right: 7%;
@@ -131,6 +135,7 @@
     z-index: 8;  
     background-color: rgba(255,255,255,.0);
     position: fixed;
+    border-radius: 50%;
     
 }
 
@@ -139,4 +144,18 @@
         display: block;
       }
     }
+
+    #bottompic {
+    background-image: url("./photos/hornings.jpg");
+    height: 500px;
+    align-content: center;
+    background-size: cover;
+    zoom: 100%;
+    background-attachment: fixed;
+    }
    
+    .navbar-brand {
+        font-family: 'Noto Serif TC', serif;
+        font-weight: bold;
+        font-size: 30px;
+    }

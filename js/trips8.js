@@ -2,7 +2,7 @@ document.getElementById("box8").addEventListener("mouseover", mouseOver);
 document.getElementById("box8").addEventListener("mouseout", mouseOut);
 
 function mouseOver() {
-    document.getElementById("box8").textContent = "Best Place Ever";
+    document.getElementById("box8").textContent = "Cannon Beach";
 
 };
 function mouseOut() {

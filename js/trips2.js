@@ -2,7 +2,7 @@ document.getElementById("box2").addEventListener("mouseover", mouseOver);
 document.getElementById("box2").addEventListener("mouseout", mouseOut);
 
 function mouseOver() {
-    document.getElementById("box2").textContent = "Year in India";
+    document.getElementById("box2").textContent = "Taj Mahal";
 
 };
 function mouseOut() {
