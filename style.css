@@ -1,5 +1,5 @@
 #box1 {
-    text-align: center;
+    text-align: left;
     height: 250px;
     width: 250px;
     background-image: url("./photos/great_wall.jpg");
@@ -8,9 +8,10 @@
     margin-right: 45px;
     z-index: 80%;
     border-radius: 5.5%;
+    color: rgba(255, 0, 0, 1)
   }
   #box2 {
-    text-align: center;
+    text-align: left;
     height: 250px;
     width: 250px;
     background-image: url("./photos/taj.jpg");
@@ -19,10 +20,10 @@
     margin-right: 45px;
     z-index: 80%;
     border-radius: 5.5%;
-
+    color: rgba(255, 0, 0, 1)
   }
   #box3 {
-    text-align: center;
+    text-align: left;
     background-image: url("./photos/taipei.jpg");
     z-index: 80%;
     background-size: cover;
@@ -30,9 +31,11 @@
     width: 250px;
     display: inline-block;
     border-radius: 5.5%;
+    color: rgba(255, 0, 0, 1)
+
   }
   #box4 {
-    text-align: center;
+    text-align: left;
     background-image: url("./photos/oaxaca_city.jpg");
     z-index: 80%;
     background-size: cover;
@@ -41,9 +44,11 @@
     display: inline-block;
     margin-right: 45px;
     border-radius: 5.5%;
+    color: rgba(255, 0, 0, 1)
+
   }
   #box5 {
-    text-align: center;
+    text-align: left;
     background-image: url("./photos/gecko.jpg");
     z-index: 80%;
     background-size: cover;
@@ -52,10 +57,10 @@
     display: inline-block;
     margin-right: 45px;
     border-radius: 5.5%;  
-    color: rgba(255, 255, 255, 1)
+    color: rgba(255, 0, 0, 1)
   }
   #box6 {
-    text-align: center;
+    text-align: left;
     background-image: url("./photos/camping.jpg");
     z-index: 80%;
     background-size: cover;
@@ -63,9 +68,11 @@
     width: 250px;
     display: inline-block;
     border-radius: 5.5%;
+    color: rgba(255, 0, 0, 1)
+
   }
   #box7 {
-    text-align: center;
+    text-align: left;
     background-image: url("./photos/kapstaad.jpg");
     z-index: 80%;
     background-size: cover;
@@ -74,9 +81,11 @@
     display: inline-block;
     margin-right: 45px;
     border-radius: 5.5%;  
+    color: rgba(255, 0, 0, 1)
+
   }
   #box8 {
-    text-align: center;
+    text-align: left;
     background-image: url("./photos/oregon_coast.jpg");
     z-index: 80%;
     background-size: cover;
@@ -85,9 +94,11 @@
     display: inline-block;
     margin-right: 45px;
     border-radius: 5.5%;
+    color: rgba(255, 0, 0, 1)
+
   }
   #box9 {
-    text-align: center;
+    text-align: left;
     background-image: url("./photos/choson.jpg");
     z-index: 80%;
     background-size: cover;
@@ -95,7 +106,7 @@
     width: 250px;
     display: inline-block;
     border-radius: 5.5%;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 0, 0, 1)
   }
   
   .boxes {
